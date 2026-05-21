@@ -1,5 +1,4 @@
 import os
-from cryptography.fernet import Fernet
 from functions.webhookDel import *
 from functions.webhookSpam import *
 from functions.webhookInfo import *

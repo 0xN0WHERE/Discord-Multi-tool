@@ -1,4 +1,4 @@
-# Discord Multi tool
+# Discord Multi Tool
 
 A powerful Discord multi-tool with multiple utilities for webhooks, user tokens, and server tools.
 

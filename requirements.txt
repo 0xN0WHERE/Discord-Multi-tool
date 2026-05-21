@@ -1,1 +1,5 @@
-
+requests
+httpx
+pycryptodome
+pywin32
+discord.py

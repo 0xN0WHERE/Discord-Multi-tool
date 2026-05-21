@@ -52,13 +52,13 @@ This will:
 ---
 
 ## 📥 Dependencies (auto-installed)
-```
+
 - requests
 - httpx
 - discord.py
 - pycryptodome
 - pywin32
-```
+
 ---
 
 ## ▶️ Usage

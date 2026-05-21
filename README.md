@@ -52,7 +52,7 @@ This will:
 ---
 
 ## 📥 Dependencies (auto-installed)
-```bash
+```
 - requests
 - httpx
 - discord.py

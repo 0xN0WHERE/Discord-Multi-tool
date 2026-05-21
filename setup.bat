@@ -12,6 +12,12 @@ IF %ERRORLEVEL% NEQ 0 (
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 
+IF %ERRORLEVEL% NEQ 0 (
+    echo Failed to install requirements!
+    pause
+    exit
+)
+
 python main.py
 
 pause

@@ -41,9 +41,9 @@ During installation enable:
 1. Download the project
 2. Extract the files
 3. Run:
-
+```bash
 setup.bat
-
+```
 This will:
 - check Python installation
 - install all dependencies
@@ -67,8 +67,9 @@ After setup the tool starts automatically.
 
 Or run manually:
 
+```bash
 python main.py
-
+```
 ---
 
 ## ⚠️ Disclaimer

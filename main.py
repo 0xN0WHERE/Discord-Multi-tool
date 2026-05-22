@@ -75,12 +75,10 @@ def main():
         elif command == "6" or command == "06":
             nuke_token()
         elif command == "7" or command == "07":
-            pass
-        elif command == "8" or command == "08":
             spam_gc()
-        elif command == "9" or command == "09":
+        elif command == "8" or command == "08":
             gen_invite()
-        elif command == "10":
+        elif command == "9" or command == "09":
             lookup_server()
             
 main()

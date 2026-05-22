@@ -1,13 +1,13 @@
 import os
-from functions.webhookDel import *
-from functions.webhookSpam import *
-from functions.webhookInfo import *
-from functions.webhookEdit import *
-from functions.tokenInfo import *
-from functions.tokenNuke import *
-from functions.inviteGen import *
-from functions.groupSpammer import *
-from functions.serverInfo import *
+from features.webhookDel import *
+from features.webhookSpam import *
+from features.webhookInfo import *
+from features.webhookEdit import *
+from features.tokenInfo import *
+from features.tokenNuke import *
+from features.inviteGen import *
+from features.groupSpammer import *
+from features.serverInfo import *
 
 banner = f"""{Fore.BLUE}
                     ________  .__                              .___   __                .__   

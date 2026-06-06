@@ -45,7 +45,10 @@ def lookup_server():
                 time.sleep(0.05)
                 print(f"{bracketopen2}{Fore.BLUE}+{Style.RESET_ALL}{bracketclosed2}{Fore.BLUE} Channel         :{Style.RESET_ALL} {data['channel']['name']} - ({data['channel']['id']})")
                 time.sleep(0.05)
-                print(f"{bracketopen2}{Fore.BLUE}+{Style.RESET_ALL}{bracketclosed2}{Fore.BLUE} Expiration date :{Style.RESET_ALL} {data['expires_at'].split('T')[0]}")
+                try:
+                    print(f"{bracketopen2}{Fore.BLUE}+{Style.RESET_ALL}{bracketclosed2}{Fore.BLUE} Expiration date :{Style.RESET_ALL} {data['expires_at'].split('T')[0]}")
+                except Exception:
+                    print(f"{bracketopen2}{Fore.BLUE}+{Style.RESET_ALL}{bracketclosed2}{Fore.BLUE} Expiration date :{Style.RESET_ALL} None")
                 time.sleep(0.05)
 
                 print("")
@@ -73,13 +76,21 @@ def lookup_server():
                 else:
                     pass
             else:
+                print("")
                 time.sleep(0.05)
                 print(f"{bracketopen2}{Fore.BLUE}!{Style.RESET_ALL}{bracketclosed2}{Fore.BLUE} Server unavailable{Style.RESET_ALL}")
                 time.sleep(2)
                 return
 
-        except Exception:
+        except Exception as e:
             print("")
-            print(f"{bracketopen}{Fore.WHITE}!{Style.RESET_ALL}{bracketclosed}{Fore.BLUE} Invalid invite link{Style.RESET_ALL}")
-            time.sleep(2)
+            print(f"{Fore.RED}Fehler aufgetreten: {e}{Style.RESET_ALL}")
+            import traceback
+            traceback.print_exc()  # Das zeigt dir die exakte Zeile, die den Absturz verursacht!
+            time.sleep(5)
+
+        #except Exception:
+            #print("")
+            #print(f"{bracketopen}{Fore.WHITE}!{Style.RESET_ALL}{bracketclosed}{Fore.BLUE} Invalid invite link{Style.RESET_ALL}")
+            #time.sleep(2)
         

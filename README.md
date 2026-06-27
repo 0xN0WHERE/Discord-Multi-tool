@@ -39,7 +39,7 @@ During installation enable:
 ## 📦 Installation
 
 1. Download the project
-2. Extract the files
+2. Extract the folder
 3. Run:
 ```bash
 setup.bat

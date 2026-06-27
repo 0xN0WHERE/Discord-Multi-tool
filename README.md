@@ -51,7 +51,7 @@ This will:
 
 ---
 
-## 📥 Dependencies (auto-installed)
+## 📥 Dependencies
 
 - requests
 - httpx

@@ -1,56 +1,13 @@
 import os
-from features.webhookDel import *
-from features.webhookSpam import *
-from features.webhookInfo import *
-from features.webhookEdit import *
-from features.tokenInfo import *
-from features.tokenNuke import *
-from features.inviteGen import *
-from features.groupSpammer import *
-from features.serverInfo import *
-
-banner = f"""{Fore.BLUE}
-                    ________  .__                              .___   __                .__   
-                    \______ \ |__| ______ ____  ___________  __| _/ _/  |_  ____   ____ |  |  
-                     |    |  \|  |/  ___// ___\/  _ \_  __ \/ __ |  \   __\/  _ \ /  _ \|  |  
-                     |    `   \  |\___  \  \__(  <_> )  | \/ /_/ |   |  | (  <_> |  <_> )  |__
-                    /_______  /__/____  >\___  >____/|__|  \____ |   |__|  \____/ \____/|____/
-                            \/        \/     \/                 \/                     
-                                                ~ https://github.com/0xN0WHERE                                                                                  
-          {Style.RESET_ALL}                            
-"""
-
-title1 = "Webhooks"
-title2 = "User"
-title3 = "Server"
-
-#Webhooks
-webhook_deleter = f"{bracketopen}01{bracketclosed} Webhook deleter"
-webhook_spam = f"{bracketopen}02{bracketclosed} Webhook spammer"
-webhook_editor = f"{bracketopen}03{bracketclosed} Webhook editor"
-webhook_informations = f"{bracketopen}04{bracketclosed} Webhook info"
-
-#User
-token_infos = f"{bracketopen}05{bracketclosed} User token checker"
-token_spammer = f"{bracketopen}06{bracketclosed} User token nuker"
-gc_spammer = f"{bracketopen}07{bracketclosed} Groupchat spammer"
-
-#Server
-invite_gen = f"{bracketopen}08{bracketclosed} Bot invite gen"
-server_info = f"{bracketopen}09{bracketclosed} Server info"
-
-menu1 = f"""{Fore.BLUE}
-              ┌──────────────────┐                        ┌──────────┐                       ┌──────────┐ 
-   ┬──────────┤     {Style.RESET_ALL}{title1} {Fore.BLUE}    ├─────────┬──────────────┤   {Style.RESET_ALL}{title2} {Fore.BLUE}  ├────────────┬──────────┤  {Style.RESET_ALL}{title3} {Fore.BLUE} ├──────────┬
-   │          └──────────────────┘         │              └──────────┘            │          └──────────┘          │
-   ├─ {Style.RESET_ALL}{webhook_deleter} {Fore.BLUE}                ├─ {Style.RESET_ALL}{token_infos} {Fore.BLUE}            ├─ {Style.RESET_ALL}{invite_gen} {Fore.BLUE}          │
-   ├─ {Style.RESET_ALL}{webhook_spam} {Fore.BLUE}                ├─ {Style.RESET_ALL}{token_spammer} {Fore.BLUE}              ├─ {Style.RESET_ALL}{server_info} {Fore.BLUE}             │
-   ├─ {Style.RESET_ALL}{webhook_editor} {Fore.BLUE}                 ├─ {Style.RESET_ALL}{gc_spammer} {Fore.BLUE}             ├─                               │
-   ├─ {Style.RESET_ALL}{webhook_informations} {Fore.BLUE}                   └─                                     └─                               │
-   ├─                                                                                               
-   └─ 
-            {Style.RESET_ALL}                                                         
-"""
+from functions.webhookDel import *
+from functions.webhookSpam import *
+from functions.webhookInfo import *
+from functions.webhookEdit import *
+from functions.tokenInfo import *
+from functions.tokenNuke import *
+from functions.inviteGen import *
+from functions.groupSpammer import *
+from functions.serverInfo import *
 
 def main():
     while True:

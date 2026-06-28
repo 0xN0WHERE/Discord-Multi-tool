@@ -196,7 +196,7 @@ async def add_user_to_group(token, target_user_id, groups):
                                     print(f"{bracketopen2}{Fore.BLUE}+{Style.RESET_ALL}{bracketclosed2}{Fore.BLUE} User got added to group : {Style.RESET_ALL}{group_id}")
 
                                     if leave_response.status_code == 204:
-                                        pass
+                                       pass
                                     else:
                                         print(f"{bracketopen2}{Fore.BLUE}+{Style.RESET_ALL}{bracketclosed2}{Fore.BLUE} Failed to leave group : {Style.RESET_ALL}{group_id}")
                                         

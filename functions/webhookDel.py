@@ -54,4 +54,3 @@ def delete_webhook():
             print("")
             print(f"{bracketopen}{Fore.WHITE}!{Style.RESET_ALL}{bracketclosed}{Fore.BLUE} Invalid URL{Style.RESET_ALL}")
             time.sleep(2)
-        

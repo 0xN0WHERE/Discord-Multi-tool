@@ -25,7 +25,7 @@ def delete_webhook():
                 time.sleep(1.5)
                 print("────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────")
                 time.sleep(0.05)
-                print(f"{bracketopen2}{Fore.BLUE}+{Style.RESET_ALL}{bracketclosed2}{Fore.BLUE} Webhook deleted : {data['name']}{Style.RESET_ALL}")
+                print(f"{bracketopen2}{Fore.BLUE}+{Style.RESET_ALL}{bracketclosed2}{Fore.BLUE} Webhook deleted : {Style.RESET_ALL}{data['name']}")
                 time.sleep(0.05)
                 print("────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────")
                 time.sleep(0.05)

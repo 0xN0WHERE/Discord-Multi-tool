@@ -135,6 +135,7 @@ def token_info():
                     print(f'{bracketopen2}{Fore.BLUE}+{Style.RESET_ALL}{bracketclosed2}{Fore.BLUE} Nitro status    :{Style.RESET_ALL}   No nitro')
                     print("")
                 if has_nitro:
+                    print(f'{bracketopen2}{Fore.BLUE}+{Style.RESET_ALL}{bracketclosed2}{Fore.BLUE} Nitro status    :{Style.RESET_ALL}   Has Nitro')
                     print(f'{bracketopen2}{Fore.BLUE}+{Style.RESET_ALL}{bracketclosed2}{Fore.BLUE} Expires in      :{Style.RESET_ALL}   {days_left} day(s)')
                     print("")
     
